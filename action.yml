@@ -1,0 +1,8 @@
+name: "sylenth-1-desktop-build"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
